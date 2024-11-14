@@ -1,0 +1,9 @@
+### Create a new value schema for the topic
+
+POST http://localhost:8081/subjects/my-awesome-topic-value/versions
+Content-Type: application/vnd.schemaregistry.v1+json
+
+{"schema":{"schema":"{\"type\":\"record\",\"name\":\"Person\",\"fields\":[{\"name\":\"id\",\"type\":\"string\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"number\",\"type\":\"int\"}]}"}}
+
+###
+
